@@ -7,7 +7,11 @@ int main(void){
     int sum = 0;
     cout << "podaj dwie liczby: ";
     cin >> l1 >> l2;
-    if (l1 > l2){
+
+    if (l1 == l2){
+        return 0;
+    }
+    else if (l1 > l2){
         int tmp = l1;
         l1 = l2;
         l2 = tmp;
