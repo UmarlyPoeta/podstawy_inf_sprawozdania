@@ -25,7 +25,7 @@ int main(void){
     for (int i = 0; i < s; i++){
         cout << "0";
     }
-
+    cout << endl;
     return 0;
 
 }

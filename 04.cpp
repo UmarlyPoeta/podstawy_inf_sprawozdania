@@ -7,7 +7,7 @@ int main(void) {
     int liczby[5];
 
     for (int i = 0; i < 5; i++){
-        cout << "podaj " << i + 1 << "liczbe: ";
+        cout << "podaj " << i + 1 << " liczbe: ";
         cin >> liczby[i]; 
     }
     int min = liczby[0];

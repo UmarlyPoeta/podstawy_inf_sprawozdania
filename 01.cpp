@@ -1,19 +1,16 @@
 #include <iostream>
 
-using namespace std;
 
 
 int main(void){
     int rok;
-    cout << "podaj rok: ";
-    cin >> rok;
-
+    std::cout << "podaj rok: ";
+    std::cin >> rok;
     if ((rok % 4 == 0) && ((rok % 100 != 0) || (rok % 400 == 0))){
-        cout << "jest przestepny" << endl;
+        std::cout << "jest przestepny" << std::endl;
     }
     else{
-        cout << "nie jest przestepny" << endl;
+        std::cout << "nie jest przestepny" << std::endl;
     }
-
     return 0;
 }
