@@ -1,0 +1,19 @@
+113 dec to bin 1110001
+
+432 dec to bin 110110000
+
+555 dec to hex 22B
+
+8736 dec to hex 2220
+
+10011 bin to dec 19
+
+101001011 bin to dec 331
+
+D5E7 hex to dec 54759
+
+F01A33 hex to dec 15744627
+
+752 oct do hex FA
+
+2641 oct to hex 5A1
