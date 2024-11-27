@@ -1,0 +1,30 @@
+
+Sorting array of size 1000:
+Bubble Sort took 0.0091182 seconds.
+Selection Sort took 0.00331013 seconds.
+Heap Sort took 0.000399804 seconds.
+Quick Sort took 0.000159726 seconds.
+
+Sorting array of size 10000:
+Bubble Sort took 0.84019 seconds.
+Selection Sort took 0.285049 seconds.
+Heap Sort took 0.00495551 seconds.
+Quick Sort took 0.00331965 seconds.
+
+Sorting array of size 30000:
+Bubble Sort took 8.7205 seconds.
+Selection Sort took 2.74776 seconds.
+Heap Sort took 0.0200192 seconds.
+Quick Sort took 0.0132857 seconds.
+
+Sorting array of size 60000:
+Bubble Sort took 34.8442 seconds.
+Selection Sort took 10.3883 seconds.
+Heap Sort took 0.035843 seconds.
+Quick Sort took 0.0189778 seconds.
+
+Sorting array of size 100000:
+Bubble Sort took 96.3995 seconds.
+Selection Sort took 30.0591 seconds.
+Heap Sort took 0.0631634 seconds.
+Quick Sort took 0.0347343 seconds.
