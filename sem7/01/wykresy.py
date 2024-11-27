@@ -41,3 +41,6 @@ plt.tight_layout()
 plt.title("Wykres na podstawy infy")
 
 plt.savefig("wykres.png")
+
+
+
