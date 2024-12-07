@@ -1,4 +1,5 @@
 #include <iostream>
+<<<<<<< HEAD
 #include <vector>
 #include <algorithm>
 #include <ctime>
@@ -149,3 +150,42 @@ int main() {
     std::cout << std::endl;
     return 0;
 }
+=======
+#include <cmath>
+
+using namespace std;
+
+bool is_perfect_number(int &num)
+{
+    int sum = 0;
+
+    for (int i = 1; i <= ceil(sqrt(num)); i++)
+        if (num % i == 0)
+            sum += i;
+
+    return sum == num;
+}
+
+
+
+int main( void )
+{
+    int num;
+
+    cout << "podaj liczbe do sprawdzenia: " << endl;
+    cin >> num;
+
+    if (is_perfect_number(num))
+    {
+        cout << "liczba jest doskonala" << endl;
+    }
+    else
+    {
+        cout << "liczba nie jest doskonala" << endl;
+    }
+
+
+    return 0;
+}
+
+>>>>>>> 2dbc7ba (sem7)
